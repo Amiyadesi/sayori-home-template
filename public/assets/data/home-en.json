@@ -1,0 +1,194 @@
+{
+	"source": "template/home-en.json",
+	"language": "en",
+	"meta": {
+		"title": "Your Desk - example.com",
+		"description": "A customizable notebook-style personal homepage template.",
+		"themeColor": "#a8d4e6"
+	},
+	"music": {
+		"buttonLabel": "music",
+		"ariaLabel": "Play music",
+		"pianoAriaLabel": "Play music",
+		"tracks": {
+			"main": {
+				"youtube": "",
+				"netease": ""
+			},
+			"piano": {
+				"youtube": "",
+				"netease": ""
+			},
+			"hidden": {
+				"youtube": "",
+				"netease": ""
+			}
+		}
+	},
+	"links": {
+		"blog": "https://example.com/blog/",
+		"videos": "https://example.com/videos/",
+		"guestbookEndpoint": "",
+		"guestbookPath": "/guestbook/"
+	},
+	"surface": {
+		"title": "a few notes",
+		"entryAriaLabel": "Entries",
+		"entries": [
+			{
+				"num": "01",
+				"title": "Blog",
+				"desc": "- posts, notes, and rambles",
+				"href": "https://example.com/blog/"
+			},
+			{
+				"num": "02",
+				"title": "Videos",
+				"desc": "- creative logs and public channel",
+				"href": "https://example.com/videos/",
+				"external": true
+			},
+			{
+				"num": "03",
+				"title": "About me",
+				"desc": "- profile and contact",
+				"action": "about"
+			},
+			{
+				"num": "04",
+				"title": "Services",
+				"desc": "- small public things",
+				"action": "services"
+			}
+		],
+		"marginNote": "whatever comes to mind.",
+		"footerNotice": "your navigation desk",
+		"languageLink": {
+			"href": "../zh/",
+			"label": "中文"
+		},
+		"version": "template",
+		"foldHint": "peek?",
+		"foldAriaLabel": "Flip page",
+		"heartAriaLabel": "Click for hearts",
+		"stickyQuotes": [
+			"Cheer up today!",
+			"Remember to drink water.",
+			"You're here~",
+			"This is a safe place.",
+			"It's okay to rest sometimes.",
+			"Replace this note with your own."
+		]
+	},
+	"profile": {
+		"ariaLabel": "About the owner",
+		"backLabel": "<- Back",
+		"backAriaLabel": "Back to main page",
+		"kicker": "03 / About me",
+		"name": "Your Name",
+		"intro": "Write a short intro here: who you are, what you are building, what you care about, and where people should start. This template works well as a personal navigation page, portfolio entry, blog home, or tiny project portal.",
+		"columns": [
+			{
+				"title": "What I Build",
+				"items": [
+					"List your skills or interests here.",
+					"Keep the most important 3 to 5 points.",
+					"You can mention tools, creative work, or current learning goals.",
+					"Short lines make the note feel more natural."
+				]
+			},
+			{
+				"title": "Project Notes",
+				"items": [
+					{
+						"text": "Project One: describe the problem it solves in one sentence.",
+						"links": [
+							{
+								"label": "Project One",
+								"href": "https://github.com/your-name/project-one"
+							}
+						]
+					},
+					{
+						"text": "Project Two: mention your role, stack, or result.",
+						"links": [
+							{
+								"label": "Project Two",
+								"href": "https://example.com/project-two"
+							}
+						]
+					},
+					{
+						"text": "Writing / Notes: link your posts, notes, or public resources.",
+						"links": [
+							{
+								"label": "Writing / Notes",
+								"href": "https://example.com/blog/"
+							}
+						]
+					}
+				]
+			}
+		],
+		"learning": [
+			"Learning: writing",
+			"Web dev",
+			"Design",
+			"Automation",
+			"Personal knowledge systems"
+		],
+		"contact": {
+			"email": "hello@example.com",
+			"linksAriaLabel": "Public links",
+			"links": [
+				{
+					"label": "GitHub",
+					"href": "https://github.com/your-name"
+				},
+				{
+					"label": "Blog",
+					"href": "https://example.com/blog/"
+				},
+				{
+					"label": "Video",
+					"href": "https://example.com/videos/"
+				}
+			]
+		}
+	},
+	"services": {
+		"ariaLabel": "Public services",
+		"backLabel": "<- Back",
+		"backAriaLabel": "Back to main page",
+		"kicker": "04 / Services",
+		"title": "Small Things On The Desk",
+		"intro": "Use this section for public links: resources, guestbook, small tools, demos, or a shop. Delete any card you do not need.",
+		"items": [
+			{
+				"index": "LINKS",
+				"title": "Resource Shelf",
+				"desc": "Tools, assets, and notes you keep returning to.",
+				"href": "https://example.com/resources/"
+			},
+			{
+				"index": "BOARD",
+				"title": "Whiteboard / Tool",
+				"desc": "Link a small public tool or interactive page.",
+				"href": "https://example.com/tool/"
+			},
+			{
+				"index": "NOTE",
+				"title": "Guestbook",
+				"desc": "A place for visitors to leave a short note.",
+				"href": "https://example.com/guestbook/"
+			},
+			{
+				"index": "SHOP",
+				"title": "Work / Shop",
+				"desc": "Show downloadable, purchasable, or tryable work.",
+				"href": "https://example.com/shop/"
+			}
+		],
+		"footnote": "Replace these example links with your real destinations."
+	}
+}

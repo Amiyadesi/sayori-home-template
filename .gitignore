@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+
+node_modules/
+.env
+.env.*
+
+output/
+dist/
+build/
+.cache/
+
+*.log

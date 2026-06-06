@@ -1,0 +1,194 @@
+{
+	"source": "template/home-zh.json",
+	"language": "zh",
+	"meta": {
+		"title": "你的书桌 - example.com",
+		"description": "一个可定制的笔记本风个人主页模板。",
+		"themeColor": "#a8d4e6"
+	},
+	"music": {
+		"buttonLabel": "放点音乐",
+		"ariaLabel": "播放音乐",
+		"pianoAriaLabel": "播放音乐",
+		"tracks": {
+			"main": {
+				"youtube": "",
+				"netease": ""
+			},
+			"piano": {
+				"youtube": "",
+				"netease": ""
+			},
+			"hidden": {
+				"youtube": "",
+				"netease": ""
+			}
+		}
+	},
+	"links": {
+		"blog": "https://example.com/blog/",
+		"videos": "https://example.com/videos/",
+		"guestbookEndpoint": "",
+		"guestbookPath": "/guestbook/"
+	},
+	"surface": {
+		"title": "随手记几行",
+		"entryAriaLabel": "入口",
+		"entries": [
+			{
+				"num": "01",
+				"title": "博客",
+				"desc": "- 文章、笔记、碎碎念",
+				"href": "https://example.com/blog/"
+			},
+			{
+				"num": "02",
+				"title": "视频",
+				"desc": "- 创作记录和公开频道",
+				"href": "https://example.com/videos/",
+				"external": true
+			},
+			{
+				"num": "03",
+				"title": "关于我",
+				"desc": "- 简历和联系方式",
+				"action": "about"
+			},
+			{
+				"num": "04",
+				"title": "小服务",
+				"desc": "- 可以公开使用的小东西",
+				"action": "services"
+			}
+		],
+		"marginNote": "想到什么就写什么。",
+		"footerNotice": "你的导航站点",
+		"languageLink": {
+			"href": "../en/",
+			"label": "EN"
+		},
+		"version": "template",
+		"foldHint": "翻翻看？",
+		"foldAriaLabel": "翻页",
+		"heartAriaLabel": "点击心跳",
+		"stickyQuotes": [
+			"今天也要加油哦。",
+			"记得喝水。",
+			"你来了呀~",
+			"这里是安全的地方。",
+			"偶尔休息一下也没关系。",
+			"把这张便签换成你自己的话。"
+		]
+	},
+	"profile": {
+		"ariaLabel": "关于站主",
+		"backLabel": "<- 返回",
+		"backAriaLabel": "返回主纸页",
+		"kicker": "03 / 关于我",
+		"name": "你的名字",
+		"intro": "在这里写一段简短介绍：你是谁、正在做什么、喜欢什么，以及别人应该从哪里了解你。这个模板适合做个人导航、作品集入口、博客首页或小型项目门户。",
+		"columns": [
+			{
+				"title": "能做什么",
+				"items": [
+					"把你的技能或兴趣写在这里。",
+					"建议保留最重要的 3 到 5 条。",
+					"可以写工具、创作方向或当前学习目标。",
+					"短句会让纸条看起来更自然。"
+				]
+			},
+			{
+				"title": "作品记录",
+				"items": [
+					{
+						"text": "Project One：一句话说明这个项目解决了什么问题。",
+						"links": [
+							{
+								"label": "Project One",
+								"href": "https://github.com/your-name/project-one"
+							}
+						]
+					},
+					{
+						"text": "Project Two：一句话说明你的角色、技术栈或成果。",
+						"links": [
+							{
+								"label": "Project Two",
+								"href": "https://example.com/project-two"
+							}
+						]
+					},
+					{
+						"text": "Writing / Notes：放你的文章、笔记或公开资料。",
+						"links": [
+							{
+								"label": "Writing / Notes",
+								"href": "https://example.com/blog/"
+							}
+						]
+					}
+				]
+			}
+		],
+		"learning": [
+			"正在学：写作",
+			"Web 开发",
+			"设计",
+			"自动化",
+			"个人知识管理"
+		],
+		"contact": {
+			"email": "hello@example.com",
+			"linksAriaLabel": "公开入口",
+			"links": [
+				{
+					"label": "GitHub",
+					"href": "https://github.com/your-name"
+				},
+				{
+					"label": "Blog",
+					"href": "https://example.com/blog/"
+				},
+				{
+					"label": "Video",
+					"href": "https://example.com/videos/"
+				}
+			]
+		}
+	},
+	"services": {
+		"ariaLabel": "公开服务",
+		"backLabel": "<- 返回",
+		"backAriaLabel": "返回主纸页",
+		"kicker": "04 / 小服务",
+		"title": "桌角的小服务",
+		"intro": "这里放一些能公开使用的小工具：资料抽屉、留言板、小演示或商店。删掉不需要的卡片就好。",
+		"items": [
+			{
+				"index": "LINKS",
+				"title": "资源索引",
+				"desc": "你经常会翻回去的工具、素材和学习资料。",
+				"href": "https://example.com/resources/"
+			},
+			{
+				"index": "BOARD",
+				"title": "白板 / 工具",
+				"desc": "放一个小工具、交互页面或公开演示。",
+				"href": "https://example.com/tool/"
+			},
+			{
+				"index": "NOTE",
+				"title": "留言板",
+				"desc": "让访客留下短留言、友链申请或反馈。",
+				"href": "https://example.com/guestbook/"
+			},
+			{
+				"index": "SHOP",
+				"title": "作品 / 商店",
+				"desc": "展示可以下载、购买或试用的作品。",
+				"href": "https://example.com/shop/"
+			}
+		],
+		"footnote": "把这些示例链接换成你的真实入口。"
+	}
+}

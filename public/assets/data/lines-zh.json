@@ -1,0 +1,222 @@
+{
+	"source": "template/lines-zh.json",
+	"language": "zh",
+	"terminal": {
+		"title": "notebook.exe - terminal",
+		"placeholder": "/help",
+		"ariaLabel": "输入指令",
+		"layerAriaLabel": "终端",
+		"closeAriaLabel": "关闭终端",
+		"minimizeAriaLabel": "最小化",
+		"closeMessage": "正在关闭终端..."
+	},
+	"responses": {
+		"help": [
+			"可用指令：",
+			"  /help    - 查看这份帮助",
+			"  /blog    - 打开示例博客",
+			"  /videos  - 打开示例视频链接",
+			"  /about   - 关于这个模板",
+			"  /restore - 把纸页放回去，也可以直接输入 Y",
+			"",
+			"  /color <名字> - 切换主题色 (cyan/pink/green/amber)",
+			"  /glitch  - 触发一次故障动画",
+			"  /matrix  - 开关数字雨",
+			"  /cat note.txt - 看一眼便签",
+			"",
+			"修改 public/assets/data/lines-*.json 可以替换这些台词。"
+		],
+		"about": [
+			"Notebook Homepage Template - 一个静态个人主页模板。",
+			"可以部署到 Cloudflare Pages、GitHub Pages 或任何静态托管平台。",
+			"没有后端，没有数据库，只有 HTML/CSS/JS 和 JSON。"
+		],
+		"restore": "好，把纸页放回去。",
+		"credits": [
+			"=== credits ===",
+			"  Template - Notebook Homepage Template",
+			"  Art - 内置示例视觉素材，建议替换成你自己的图",
+			"  Fonts - Comic Neue / LXGW WenKai GB Screen / JetBrains Mono",
+			"  Hosting - 任意静态站平台"
+		],
+		"version": [
+			"notebook-template v1.0",
+			"  content: public/assets/data/*.json",
+			"  deploy target: public/"
+		],
+		"poem": [
+			"\"",
+			"  在纸上写一句话",
+			"  把纸放到网上",
+			"  它就成了一个小入口",
+			"\""
+		],
+		"hidden": [
+			"这是一个示例彩蛋。",
+			"你可以把它换成自己的提示、玩笑或站点设定。"
+		],
+		"diary": [
+			"今天有人翻开了这张纸。",
+			"他们点了右上角。",
+			"纸页轻轻晃了一下。"
+		],
+		"protect": [
+			"OK，我会守好这张纸。"
+		],
+		"reload": [
+			"刷新后页面会重新开始。"
+		],
+		"sudo": [
+			"sudo: visitor is not in the sudoers file."
+		],
+		"rm": [
+			"示例站点不会真的删除任何东西。"
+		],
+		"ls": [
+			"./",
+			"- blog/",
+			"- links.md",
+			"- note.txt"
+		],
+		"cd": [
+			"这里没有真实文件系统。"
+		],
+		"whoami": [
+			"你是访客。ID 待定。"
+		],
+		"pwd": [
+			"/notebook/template"
+		],
+		"echo": [
+			"...echo 什么？空指令。"
+		],
+		"date": [
+			"现在 - 你看到这张纸的这一刻。"
+		],
+		"uptime": [
+			"notebook.exe 已经运行了一小会儿。"
+		],
+		"login": [
+			"...你已经登录了。"
+		],
+		"logout": [
+			"下次见。"
+		],
+		"coffee": [
+			"桌上的咖啡已经凉了。"
+		],
+		"ping": [
+			"pong."
+		],
+		"diary_text": [
+			"=== note.txt ===",
+			"  这是一张模板便签。",
+			"  你可以把它改成站点说明、角色台词、项目备忘，",
+			"  或者直接删掉这个彩蛋。"
+		],
+		"matrix_msg": [
+			"...背景现在属于你。",
+			"  再运行一次 /matrix 可以停止。"
+		],
+		"glitch_msg": [
+			"...有什么东西晃了一下。",
+			"  噪声等级 +1。"
+		],
+		"color_help": [
+			"用法：/color <名字>",
+			"  可选：cyan / pink / green / amber / reset"
+		],
+		"color_changed": [
+			"...好，换个颜色。"
+		]
+	},
+	"eggs": {
+		"hello": [
+			"你好！",
+			"嗨~"
+		],
+		"hi": [
+			"嗨~"
+		],
+		"hey": [
+			"嘿~ 今天怎么样？"
+		],
+		"你好": [
+			"你好呀。"
+		],
+		"嗨": [
+			"嗨~"
+		],
+		"bye": [
+			"下次见。"
+		],
+		"love": [
+			"谢谢你喜欢这里。"
+		],
+		"delete": [
+			"请不要删除我，我只是模板。"
+		],
+		"rain": [
+			"下雨了，适合写点东西。"
+		],
+		"cookie": [
+			"给你一块画在纸上的饼干。"
+		],
+		"happy": [
+			"开心就好。"
+		],
+		"nothing": [
+			"...嗯。"
+		],
+		"why": [
+			"因为每个站点都需要一个入口。"
+		],
+		"how": [
+			"看 README，然后改 JSON。"
+		]
+	},
+	"fallback": [
+		"嗯？没看懂。试试 /help？",
+		"没有这个指令。",
+		"输入 /help 可以看到可用指令。"
+	],
+	"cameos": {
+		"roles": {
+			"sample": {
+				"image": [
+					"../assets/generated/terminal-sample-1.webp",
+					"../assets/generated/terminal-sample-2.webp",
+					"../assets/generated/terminal-sample-3.webp"
+				],
+				"label": "sample.chr",
+				"lines": {
+					"name": "这是一句示例角色台词。",
+					"chr": "把这里换成你自己的彩蛋。",
+					"delete": "模板锁住了这个危险指令。",
+					"just": "只是一个模板。",
+					"justDelete": "请不要删除示例角色。",
+					"file": "这个文件只是示例。"
+				}
+			}
+		},
+		"global": {
+			"chr": {
+				"image": [
+					"../assets/generated/terminal-sample-1.webp",
+					"../assets/generated/terminal-sample-2.webp",
+					"../assets/generated/terminal-sample-3.webp"
+				],
+				"label": "*.chr",
+				"tone": "strong",
+				"line": "把你的隐藏彩蛋放在这里。"
+			},
+			"file": {
+				"image": "../assets/generated/terminal-sample-1.webp",
+				"label": "file table",
+				"tone": "strong",
+				"line": "文件表是假的，但气氛是真的。"
+			}
+		}
+	},
+	"greeting": "notebook.exe 已启动。输入 /help 查看可用指令。"
+}

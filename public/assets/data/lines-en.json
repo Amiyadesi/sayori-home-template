@@ -1,0 +1,216 @@
+{
+	"source": "template/lines-en.json",
+	"language": "en",
+	"terminal": {
+		"title": "notebook.exe - terminal",
+		"placeholder": "/help",
+		"ariaLabel": "Enter command",
+		"layerAriaLabel": "Terminal",
+		"closeAriaLabel": "Close terminal",
+		"minimizeAriaLabel": "Minimize",
+		"closeMessage": "Closing terminal..."
+	},
+	"responses": {
+		"help": [
+			"Available commands:",
+			"  /help    - you are looking at it",
+			"  /blog    - open the example blog",
+			"  /videos  - open the example video link",
+			"  /about   - about this template",
+			"  /restore - put the paper back (or just type Y)",
+			"",
+			"  /color <name> - change theme (cyan/pink/green/amber)",
+			"  /glitch  - trigger a manual glitch",
+			"  /matrix  - digital rain toggle (run again to stop)",
+			"  /cat note.txt - peek at the note",
+			"",
+			"Edit public/assets/data/lines-*.json to change these lines."
+		],
+		"about": [
+			"Notebook Homepage Template - a static personal homepage template.",
+			"Deploy it to Cloudflare Pages, GitHub Pages, or any static host.",
+			"No backend, no database, just HTML/CSS/JS and JSON."
+		],
+		"restore": "Alright, putting the paper back.",
+		"credits": [
+			"=== credits ===",
+			"  Template - Notebook Homepage Template",
+			"  Art - included sample art, replace it for your site",
+			"  Fonts - Comic Neue / LXGW WenKai GB Screen / JetBrains Mono",
+			"  Hosting - any static site platform"
+		],
+		"version": [
+			"notebook-template v1.0",
+			"  content: public/assets/data/*.json",
+			"  deploy target: public/"
+		],
+		"poem": [
+			"\"",
+			"  Write a sentence on paper",
+			"  Put the paper online",
+			"  Now it is a small doorway",
+			"\""
+		],
+		"hidden": [
+			"This is a sample easter egg.",
+			"Replace it with your own hints, jokes, or site lore."
+		],
+		"diary": [
+			"Someone flipped this paper today.",
+			"They clicked the corner.",
+			"The page shook a little."
+		],
+		"protect": [
+			"OK, I will guard this paper."
+		],
+		"reload": [
+			"Reloading starts the page over."
+		],
+		"sudo": [
+			"sudo: visitor is not in the sudoers file."
+		],
+		"rm": [
+			"The sample site will not actually delete anything."
+		],
+		"ls": [
+			"./",
+			"- blog/",
+			"- links.md",
+			"- note.txt"
+		],
+		"cd": [
+			"There is no real file system here."
+		],
+		"whoami": [
+			"You are a visitor. ID pending."
+		],
+		"pwd": [
+			"/notebook/template"
+		],
+		"echo": [
+			"...echo what? Empty command."
+		],
+		"date": [
+			"Right now - the moment you see this paper."
+		],
+		"uptime": [
+			"notebook.exe has been running for a little while."
+		],
+		"login": [
+			"...you are already logged in."
+		],
+		"logout": [
+			"See you next time."
+		],
+		"coffee": [
+			"The cup on the desk has gone cold."
+		],
+		"ping": [
+			"pong."
+		],
+		"diary_text": [
+			"=== note.txt ===",
+			"  This is a template note.",
+			"  Turn it into a site note, character line, project memo,",
+			"  or remove this easter egg entirely."
+		],
+		"matrix_msg": [
+			"...the background is yours now.",
+			"  Run /matrix again to stop it."
+		],
+		"glitch_msg": [
+			"...something is shaking.",
+			"  Noise level +1."
+		],
+		"color_help": [
+			"Usage: /color <name>",
+			"  Options: cyan / pink / green / amber / reset"
+		],
+		"color_changed": [
+			"...alright, new color."
+		]
+	},
+	"eggs": {
+		"hello": [
+			"Hello!",
+			"Hi~"
+		],
+		"hi": [
+			"Hi~"
+		],
+		"hey": [
+			"Hey~ what is up?"
+		],
+		"bye": [
+			"See you next time."
+		],
+		"love": [
+			"Thanks for liking this place."
+		],
+		"delete": [
+			"Please do not delete me, I am only a template."
+		],
+		"rain": [
+			"It is raining. Good weather for writing."
+		],
+		"cookie": [
+			"Here is a cookie drawn on paper."
+		],
+		"happy": [
+			"Glad you are happy."
+		],
+		"nothing": [
+			"...yeah."
+		],
+		"why": [
+			"Because every site needs an entrance."
+		],
+		"how": [
+			"Read the README, then edit the JSON."
+		]
+	},
+	"fallback": [
+		"Hm? Did not get that. Try /help?",
+		"That command does not exist.",
+		"Type /help to see what is available."
+	],
+	"cameos": {
+		"roles": {
+			"sample": {
+				"image": [
+					"../assets/generated/terminal-sample-1.webp",
+					"../assets/generated/terminal-sample-2.webp",
+					"../assets/generated/terminal-sample-3.webp"
+				],
+				"label": "sample.chr",
+				"lines": {
+					"name": "This is a sample character line.",
+					"chr": "Replace this with your own easter egg.",
+					"delete": "The template locked this dangerous command.",
+					"just": "Just a template.",
+					"justDelete": "Please do not delete the sample character.",
+					"file": "This file is only a sample."
+				}
+			}
+		},
+		"global": {
+			"chr": {
+				"image": [
+					"../assets/generated/terminal-sample-1.webp",
+					"../assets/generated/terminal-sample-2.webp",
+					"../assets/generated/terminal-sample-3.webp"
+				],
+				"label": "*.chr",
+				"tone": "strong",
+				"line": "Put your hidden easter egg here."
+			},
+			"file": {
+				"image": "../assets/generated/terminal-sample-1.webp",
+				"label": "file table",
+				"tone": "strong",
+				"line": "The file table is fake, but the atmosphere is real."
+			}
+		}
+	},
+	"greeting": "notebook.exe started. Type /help for available commands."
+}
